@@ -1,0 +1,14 @@
+Options +FollowSymlinks -Indexes
+RewriteEngine on
+
+DirectoryIndex index.php
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+<IfModule mod_headers.c>
+  SetEnvIf Origin "http(s)?://(www\.)?(consignment.id|admin.consignment.id|api.consignment.id|assets.consignment.id)$" AccessControlAllowOrigin=$0
+  Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+  Header merge Vary Origin
+</IfModule>

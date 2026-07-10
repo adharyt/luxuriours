@@ -1,0 +1,24 @@
+
+const services__global__authentication___AdminAuthentication__login__POST= {endpoint:'http://api.consignment.id/service/admin-authentication/login',method:'POST'};
+const admin__controller__global__settings___ConfigAppInfo__callModal__GET= {endpoint:'http://admin.consignment.id/controller/settings/app-info/call-modal',method:'GET'};
+const services__global__centralized_configuration___Config_AppInfo__index__POST= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info/create',method:'POST'};
+const services__global__centralized_configuration___Config_AppInfo__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info/edit',method:'PATCH'};
+const services__global__centralized_configuration___Config_AppInfo__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info/delete',method:'DELETE'};
+const services__global__centralized_configuration___Config_AppInfoOrigin__index__POST= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info-origin/create',method:'POST'};
+const services__global__centralized_configuration___Config_AppInfoOrigin__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info-origin/edit',method:'PATCH'};
+const services__global__centralized_configuration___Config_AppInfoOrigin__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-configuration/app-info-origin/delete',method:'DELETE'};
+const services__global__centralized_configuration___Config_UrlBasepoint__index__POST= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-basepoint/create',method:'POST'};
+const services__global__centralized_configuration___Config_UrlBasepoint__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-basepoint/edit',method:'PATCH'};
+const services__global__centralized_configuration___Config_UrlBasepoint__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-basepoint/delete',method:'DELETE'};
+const services__global__centralized_configuration___Config_UrlEndpoint__index__POST= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-endpoint/create',method:'POST'};
+const services__global__centralized_configuration___Config_UrlEndpoint__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-endpoint/edit',method:'PATCH'};
+const services__global__centralized_configuration___Config_UrlEndpoint__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-configuration/url-endpoint/delete',method:'DELETE'};
+const admin__controller__global__settings___ConfigAppMicroservicesUrl__callModal__GET= {endpoint:'http://admin.consignment.id/controller/settings/url/call-modal',method:'GET'};
+const admin__controller__global__settings___Language__callModal__GET= {endpoint:'http://admin.consignment.id/controller/settings/language/call-modal',method:'GET'};
+const services__global__centralized_language___Config_Language__index__POST= {endpoint:'http://api.consignment.id/services/centralized-language/language/create',method:'POST'};
+const services__global__centralized_language___Config_Language__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-language/language/edit',method:'PATCH'};
+const services__global__centralized_language___Config_Language__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-language/language/delete',method:'DELETE'};
+const services__global__centralized_language___Config_Wording__index__POST= {endpoint:'http://api.consignment.id/services/centralized-language/wording/create',method:'POST'};
+const services__global__centralized_language___Config_Wording__index__PATCH= {endpoint:'http://api.consignment.id/services/centralized-language/wording/edit',method:'PATCH'};
+const services__global__centralized_language___Config_Wording__index__DELETE= {endpoint:'http://api.consignment.id/services/centralized-language/wording/delete',method:'DELETE'};
+const admin__controller__global__settings___Cache__DatabaseCache_clear__POST= {endpoint:'http://admin.consignment.id/settings/cache/database/clear',method:'POST'};
